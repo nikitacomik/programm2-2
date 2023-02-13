@@ -9,7 +9,7 @@ Console.WriteLine("Введите имя: ");
 
 string username = Console.ReadLine();
 
-if(username == "Никита")
+if(username.ToLower() == "никита")
 {
     Console.WriteLine("Ура, это же Никита");
 }
